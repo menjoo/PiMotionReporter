@@ -59,10 +59,6 @@ public class MotionReporter {
             while(true) {
                 Thread.sleep(500);
             }
-
-            // stop all GPIO activity/threads by shutting down the GPIO controller
-            // (this method will forcefully shutdown all GPIO monitoring threads and scheduled tasks)
-            // gpio.shutdown();   <--- implement this method call if you wish to terminate the Pi4J GPIO controller
         }
     }
 
